@@ -20,12 +20,19 @@ Roman Numerals
 The Romans wrote numbers using the following letters:
 
 I = 1
+
 V = 5
+
 X = 10
+
 L = 50
+
 C = 100
+
 D = 500
+
 M = 1000
+
 
 Roman numerals are written with each digit seperately starting with the left most digit and combined into a string of characters (for example 3 is expressed as III), however some numbers are represented as a given value before the next number with a letter (for example 9 is 1 before 10 - therefore IX, or 90 is 10 before 100 - therefore XC)
 
@@ -34,25 +41,38 @@ Using the above information, and any other information you have on Roman numeral
 1. Create a PHP class "RomanNumerals" that has the function "intToRoman()" to convert any given Roman Numeral string into it's corresponding decimal number. Use the following test cases to make sure that your code is correct.
 
 intToRoman(1) = I
+
 intToRoman(3) = III
+
 intToRoman(8) = VIII
+
 intToRoman(9) = IX
+
 intToRoman(1984) = MCMLXXXIV
+
 intToRoman(59) = LIX
+
 intToRoman(357) = CCCLVII
+
 
 2. Add another function "romanToInt()" to convert a given decimal number to a Roman Numeral. Use the following test cases to make sure that your code is correct.
 
 romanToInt('VII') = 7
+
 romanToInt('X') = 10
+
 romanToInt('MMV') = 2005
+
 romanToInt('CLXXX') = 180
+
 romanToInt('DI') = 501
 
 3. Finally, create a function "calculate()" that will take in a string containing a calculation of roman numerals and will output the result. Use the following test cases to make sure that your code is correct.
 
 calculate('I + I') = II
+
 calculate('XII * VII') = LXXXIV
+
 calculate('(I + (VI * III) + (C * III) - IV) / III') = CV
 
 
